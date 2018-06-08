@@ -1,0 +1,103 @@
+body{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif }
+	
+	/* > Para o input */
+	/*.input-search{
+		align-content: center;
+		border:1px solid #CCC;
+		padding:10px 150px;
+		font-size:12px;
+		margin: 30px;
+		float:right;
+
+		
+
+
+		-webkit-border-radius:100px;
+		   -moz-border-radius:100px;
+		    -ms-border-radius:100px;
+		     -o-border-radius:100px;
+		        border-radius:100px;
+		
+	}*/
+
+	.input-search{
+		padding:10px 150px;
+		display:inline-block;
+    	color:#333;
+    	font:12px arial, sans-serif;
+    	border:2px solid #CCC;
+		font-size:12px;
+		margin: 10px;
+		height: inherit;
+
+		-webkit-border-radius:200px;
+		   -moz-border-radius:200px;
+		    -ms-border-radius:200px;
+		     -o-border-radius:200px;
+		        border-radius:200px;
+	}
+
+	.input-search::-webkit-input-placeholder{ font-style:italic }
+	.input-search:-moz-placeholder			{ font-style:italic }
+	.input-search:-ms-input-placeholder		{ font-style:italic }
+	
+	h2{
+	display:inline-block;
+    /*text-decoration:none;*/
+    padding:1px 4px;
+    font:18px arial, sans-serif;
+    margin-left: 50px;
+	text-align: center;
+	color: ; #660000;
+	}
+		
+
+	table
+	{
+		alignment-baseline: center;
+	}
+	table.lista-ramais{
+		border-collapse:collapse;
+		font-size:14px;
+		font-family:Tahoma, Geneva, sans-serif;
+	}
+		table.lista-ramais th{
+			padding:5px;
+			background:#EEE;
+			border:1px solid #CCC;
+		}
+		table.lista-ramais td{
+			padding:3px;
+			border:1px solid #CCC;
+		}
+		table.lista-ramais th{
+			text-align: center;
+		}
+	
+	.cont{
+
+		align-content: center;
+		width:auto;
+		margin:auto;
+		overflow:hidden;
+	}
+	h1
+	{
+		margin-left: 50px;
+		color: orange;
+		text-align: center;
+	}
+	.navbar 
+	{
+		background-color: #660000;
+	}
+	.navbarhead
+	{
+		background-color: orange;
+	}
+
+	thead
+	{
+		align-content: center;
+	}
+	
